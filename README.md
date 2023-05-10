@@ -4,7 +4,7 @@
 大学院講義「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」のグループワーク
 
 
-## Usage
+## Gitの使い方
 ### Go to Local Repository
 
 if you don't have the local repository, clone it from the remote repository
