@@ -1,7 +1,8 @@
 # 最強じゃんけんAIマシーンを作る
 
 ## Introduction
-大学院講義「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」のグループワーク
+東京大学大学院
+「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」のグループワーク
 
 
 ## Gitの使い方
@@ -14,9 +15,9 @@ git clone https://github.com/DaikiTsuzuki/BioSensing_AI.git
 ```
 
 Go to the top of the local repository
-
+g
 ```bash
-cd BioSensin_AI     # go to the local repository
+cd BioSensing_AI     # go to the local repository
 ```
 
 
@@ -50,6 +51,7 @@ git branch -a   # make sure you are in the deveiop branch
 ### Submit
 
 Finally, you submit files by pushing to the `develop` branch of the remote repository. 
+Make sure that you are in'develop' branch. Do not push to the 'main' branch.
 
 ```bash
 cd BioSensing_AI    # go to the top of the repository
@@ -57,7 +59,7 @@ git status  # check the changes
 git add .   # stage the changes
 git status  # check the staged changes
 git commit -m "what you did"   # the comment can be anything
-git push --set-upstream origin develop  # up date the task0 branch of the remote repository
+git push --set-upstream origin develop  # up date the develop branch of the remote repository
 ```
 
 go to the GitHub webpage `https://github.com/DaikiTsuzuki/BioSensing_AI` and make a pull request. 
