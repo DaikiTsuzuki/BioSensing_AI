@@ -4,6 +4,34 @@
 東京大学大学院
 「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」のグループワーク
 
+## webcamお試しプログラムの使い方
+Go to the top of the local repository
+
+```bash
+cd BioSensing_AI     # go to the local repository
+```
+
+### Update Local Repository
+
+Please update the local repository on your computer
+
+```bash
+git checkout main   # set main branch as the current branch
+git fetch origin main    # download the main branch from remote repository
+git reset --hard origin/main  # reset the local main branch same as remote repository
+```
+
+### Install libraries
+```bash
+pip  install -r requirements.txt
+```
+
+### Run the program
+```bash
+python janken-deep-webcam.py hand-cnn.h5
+```
+
+![](janken.png)
 
 ## Gitの使い方
 ### Go to Local Repository
@@ -15,7 +43,7 @@ git clone https://github.com/DaikiTsuzuki/BioSensing_AI.git
 ```
 
 Go to the top of the local repository
-g
+
 ```bash
 cd BioSensing_AI     # go to the local repository
 ```
@@ -24,7 +52,7 @@ cd BioSensing_AI     # go to the local repository
 
 ### Update Local Repository
 
-Please updat the local repository on your computer
+Please update the local repository on your computer
 
 ```bash
 git checkout main   # set main branch as the current branch
