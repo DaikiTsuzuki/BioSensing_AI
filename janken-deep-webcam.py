@@ -10,6 +10,7 @@ from PIL import Image, ImageTk
 import threading
 import time
 import subprocess
+from playsound import playsound
 try:
     import Tkinter as tk
 except ImportError: # for Python 3
@@ -326,9 +327,9 @@ class Application(tk.Frame):
             self.message_canvas.delete('all')
             self.message_canvas.create_text(200, 15, text=message_text)
             # 「じゃんけんぽん」という音声を再生
-            args = ['mpg321', '-q', 'ml-sound/jankenpon.mp3']
+            args = ['mpg321', '-q', 'jankenpon.mp3']
             try:
-                process = subprocess.Popen(args).wait()
+                playsound("jankenpon.mp3")
             except FileNotFoundError:
                 time.sleep(2)
             # メッセージ領域に「ぽん！」と表示
