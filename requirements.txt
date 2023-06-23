@@ -1,7 +1,10 @@
-sklearn
+scikit-learn
 numpy
 scipy
 matplotlib
-PIL
 keras
 playsound
+opencv-python
+scipy
+tensorflow
+pillow
