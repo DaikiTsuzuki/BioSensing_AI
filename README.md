@@ -2,7 +2,10 @@
 
 ## Introduction
 東京大学大学院
-「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」のグループワーク
+「医用画像・医用磁性 (電気系工学専攻)」および「生体計測工学(バイオエンジニアリング専攻)」での制作物
+
+授業内での投票で**最優秀賞**を獲得！！
+
 
 ## webcamお試しプログラムの使い方
 Go to the top of the local repository
@@ -76,7 +79,7 @@ git branch -a   # make sure you are in the deveiop branch
 
 
 
-### Submit
+### Update Remote Repository
 
 Finally, you submit files by pushing to the `develop` branch of the remote repository. 
 Make sure that you are in'develop' branch. Do not push to the 'main' branch.
